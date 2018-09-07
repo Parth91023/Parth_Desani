@@ -1,0 +1,130 @@
+h2. User Feedback
+
+
+
+h2. Report Details
+
+*Crash ID*: e21fe39b6cd75f2d0325117dfbfdbfd90d98c7ca
+
+
+*Stack Trace*
+<pre>
+QDockWidget::toggleViewAction :
+QgisApp::removeDockWidget :
+QgsPresetSchemeColorRamp::clone :
+PyCFunction_FastCallDict :
+PyObject_GenericGetAttr :
+PyEval_EvalFrameDefault :
+PyObject_GenericGetAttr :
+PyEval_EvalFrameDefault :
+PyObject_GenericGetAttr :
+PyEval_EvalFrameDefault :
+PyErr_Occurred :
+PyEval_EvalCode :
+PyArena_Free :
+PyRun_StringFlags :
+instance :
+instance :
+QgsPluginRegistry::unloadPythonPlugin :
+QgsLayoutLocatorFilter::triggerResult :
+QgsLayoutLocatorFilter::triggerResult :
+QMetaObject::activate :
+QStandardItemModel::`default constructor closure' :
+QMetaObject::activate :
+QAbstractItemModel::dataChanged :
+QStandardItemModel::itemChanged :
+QStandardItem::setData :
+QStandardItemModel::setData :
+QSortFilterProxyModel::setData :
+QStyledItemDelegate::editorEvent :
+QAbstractItemView::selectionModel :
+QAbstractItemView::edit :
+QAbstractItemView::mouseReleaseEvent :
+QListView::mouseReleaseEvent :
+QWidget::event :
+QFrame::event :
+QAbstractItemView::viewportEvent :
+QCoreApplicationPrivate::sendThroughObjectEventFilters :
+QApplicationPrivate::notify_helper :
+QApplication::notify :
+QgsApplication::notify :
+QCoreApplication::notifyInternal2 :
+QApplicationPrivate::sendMouseEvent :
+QSizePolicy::QSizePolicy :
+QSizePolicy::QSizePolicy :
+QApplicationPrivate::notify_helper :
+QApplication::notify :
+QgsApplication::notify :
+QCoreApplication::notifyInternal2 :
+QGuiApplicationPrivate::processMouseEvent :
+QWindowSystemInterface::sendWindowSystemEvents :
+QEventDispatcherWin32::processEvents :
+CallWindowProcW :
+DispatchMessageW :
+QEventDispatcherWin32::processEvents :
+qt_plugin_query_metadata :
+QEventLoop::exec :
+QDialog::exec :
+PyInit__gui :
+PyCFunction_FastCallDict :
+PyObject_GenericGetAttr :
+PyEval_EvalFrameDefault :
+PyErr_Occurred :
+PyObject_GenericGetAttr :
+PyEval_EvalFrameDefault :
+PyErr_Occurred :
+PyEval_EvalCode :
+PyArena_Free :
+PyRun_StringFlags :
+instance :
+instance :
+QgisApp::rotatePointSymbols :
+QgsPythonRunner::run :
+QgisApp::showPluginManager :
+QMetaObject::activate :
+QAction::activate :
+QMenu::actionGeometry :
+QMenu::actionGeometry :
+QMenu::mouseReleaseEvent :
+QWidget::event :
+QMenu::event :
+QApplicationPrivate::notify_helper :
+QApplication::notify :
+QgsApplication::notify :
+QCoreApplication::notifyInternal2 :
+QApplicationPrivate::sendMouseEvent :
+QSizePolicy::QSizePolicy :
+QSizePolicy::QSizePolicy :
+QApplicationPrivate::notify_helper :
+QApplication::notify :
+QgsApplication::notify :
+QCoreApplication::notifyInternal2 :
+QGuiApplicationPrivate::processMouseEvent :
+QWindowSystemInterface::sendWindowSystemEvents :
+QEventDispatcherWin32::processEvents :
+CallWindowProcW :
+DispatchMessageW :
+QEventDispatcherWin32::processEvents :
+qt_plugin_query_metadata :
+QEventLoop::exec :
+QCoreApplication::exec :
+main :
+BaseThreadInitThunk :
+RtlUserThreadStart :
+</pre>
+
+
+*QGIS Info*
+QGIS Version: 3.2.2-Bonn
+QGIS code revision: commit:26842169e9
+Compiled against Qt: 5.9.2
+Running against Qt: 5.9.2
+Compiled against GDAL: 2.2.4
+Running against GDAL: 2.2.4
+
+
+
+*System Info*
+CPU Type: x86_64
+Kernel Type: winnt
+Kernel Version: 10.0.17134
